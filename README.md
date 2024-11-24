@@ -13,3 +13,22 @@ The program also handles reading and writing employee data from CSV files and ge
 
 ## Project Structure
 
+
+### Files Overview
+
+- **`secretSanta.py`**: The core logic for the Secret Santa assignment, where employees are randomly assigned to other employees as Secret Santas, avoiding prior assignments.
+- **`fileOperation.py`**: Contains logic for reading employee data from CSV files and writing the results back to a new CSV file.
+- **`utils.py`**: Contains utility functions, including one to generate dynamic file names based on the current epoch timestamp.
+- **`main.py`**: The main entry point for executing the Secret Santa assignment process.
+- **`/assets`**: This folder contains CSV files for employee data and previous year’s assignments:
+  - `previous_year_data.csv`: Contains the Secret Santa assignments from the previous year.
+  - `employee_data.csv`: Contains the current year’s list of employees to be assigned Secret Santas.
+
+### Installation
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/joel2592001/Digitalxc.git
+
+
